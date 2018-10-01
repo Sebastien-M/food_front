@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    font-family: sans-serif;
+}
+
+.demo-layout-transparent {
+    display: table;
+    /* width: 100%; */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('food.jpeg') center/cover;
+    background-position: center top;
+    height: 100vh;
+}
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+  your background is light. */
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    height: 70%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom_content {
+    margin-top: 20%;
+    background-color: white;
+    display: block;
+}
+
+.main_container_info {
+    margin-top: 100px;
+}
+
+.container_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mdl-layout-title{
+    font-size: 1.7em;
+}
