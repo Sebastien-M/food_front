@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 
 class SignIn extends Component {
     render() {
+        console.log(this);
         return (
             <dialog className="mdl-dialog" id="signin">
                 <h4 className="mdl-dialog__title">Se connecter</h4>
@@ -19,7 +20,7 @@ class SignIn extends Component {
                     </form>
                 </div>
                 <div className="mdl-dialog__actions">
-                    <button type="button" className="mdl-button">Envoyer</button>
+                    <button type="button" className="mdl-button" onClick={() => this.props.actions.login()}>Envoyer</button>
                     <button type="button" className="mdl-button close">Fermer</button>
                 </div>
             </dialog>

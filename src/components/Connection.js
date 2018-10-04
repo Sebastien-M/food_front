@@ -8,7 +8,7 @@ class Connection extends Component {
         return (
             <section>
                 <SignUp/>
-                <SignIn/>
+                <SignIn {...this.props}/>
             </section>
         )
     }
