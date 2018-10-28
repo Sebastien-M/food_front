@@ -1,36 +1,38 @@
-import * as types from "../constants/ActionTypes";
+import {CONNECTION_ACTION_TYPES} from "../constants/ActionTypes";
 
 const initialState = {
-    token:null,
-    email:null,
-    first_name:null,
-    last_name:null,
-    password:null,
-
+    token: null,
+    username: null,
+    password: null,
+    is_connected: localStorage.getItem('token') != null,
+    loading: false,
 };
 
-const connectionReducer = (state = initialState, action) => {
+export default function connection (state = initialState, action) {
     switch (action.type) {
-        case types.SIGN_IN:
-            console.log(action.token);
+        case CONNECTION_ACTION_TYPES.SIGN_IN:
             return {
                 ...state,
                 token: action.token,
+                loading: action.loading,
+                is_connected: action.is_connected
             };
-
-        case types.SIGN_UP:
-            console.log(action.token);
+        case CONNECTION_ACTION_TYPES.LOADING_START:
+            return {
+                ...state,
+                loading: true
+            };
+        case CONNECTION_ACTION_TYPES.LOADING_END:
+            return {
+                ...state,
+                loading: false
+            };
+        case CONNECTION_ACTION_TYPES.LOG_OUT:
             return{
                 ...state,
-                token: action.token,
-                email:action.email,
-                first_name:action.first_name,
-                last_name: action.last_name,
-                password: action.password,
+                is_connected: false
             };
-
         default:
             return state;
     }
 };
-export default connectionReducer;

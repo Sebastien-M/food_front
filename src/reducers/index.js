@@ -1,4 +1,5 @@
-import connectionReducer from "./connection";
+import connection from "./connection";
 import combineReducers from "redux/src/combineReducers";
+import account from "./account";
 
-export default combineReducers({connectionReducer,});
+export default combineReducers({connection, account});

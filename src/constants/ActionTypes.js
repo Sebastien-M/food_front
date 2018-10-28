@@ -1,2 +1,11 @@
-export const SIGN_UP = 'SIGN_UP';
-export const SIGN_IN = 'SIGN_IN';
+export const CONNECTION_ACTION_TYPES = {
+    SIGN_IN: 'SIGN_IN',
+    LOG_OUT: 'LOG_OUT',
+    LOADING_START: 'LOADING_START',
+    LOADING_END: 'LOADING_END',
+};
+
+export const ACCOUNT_ACTION_TYPES = {
+    GET_USER_INFO: 'GET_USER_INFO',
+    SET_USER_INFO: 'SET_USER_INFO',
+};

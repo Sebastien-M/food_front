@@ -56,3 +56,8 @@ h2 {
 .mdl-layout-title{
     font-size: 1.7em;
 }
+.main_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
