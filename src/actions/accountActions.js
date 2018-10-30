@@ -1,5 +1,5 @@
-import client from "../ApolloClient";
-import {account_info_mutation_string} from "../mutations/account";
+import {get_new_apollo_client} from "../ApolloClient";
+import {account_info_mutation_string} from "../queries/account";
 import gql from 'graphql-tag';
 import {ACCOUNT_ACTION_TYPES} from "../constants/ActionTypes";
 
@@ -14,8 +14,23 @@ const setInfoAction = () => {
     }
 };
 
-export const account_info = function () {
+const changeTabAction = (tab) => {
+    return {
+        type: ACCOUNT_ACTION_TYPES.CHANGE_TAB,
+        current_tab: tab
+    }
+};
+
+export const change_tab = (tab) => {
     return (dispatch) => {
+        dispatch(changeTabAction(tab))
+    }
+};
+
+export const account_info = function (token) {
+    return (dispatch) => {
+        localStorage.setItem('token', token);
+        const client = get_new_apollo_client(token);
         client.query({
             query: gql`${account_info_mutation_string()}`
         }).then(
@@ -34,9 +49,9 @@ export const account_info = function () {
     };
 };
 
-export const logout = function(){
-    return (dispatch) =>{
+export const logout = function () {
+    return (dispatch) => {
         localStorage.clear();
-        window.location.href='/';
+        window.location.href = '/';
     }
 };

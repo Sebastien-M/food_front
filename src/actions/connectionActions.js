@@ -1,16 +1,18 @@
 import {CONNECTION_ACTION_TYPES} from "../constants/ActionTypes";
 import gql from 'graphql-tag';
-import client from "../ApolloClient";
+import {get_new_apollo_client} from "../ApolloClient";
 import {sign_in_mutation_string} from "../mutations/connection";
 import {sign_up_mutation_string} from "../mutations/sign_up";
 import {account_info} from "./accountActions";
 
+const client = get_new_apollo_client('');
+
 const loginAction = (token, is_connected) => {
     return {type: CONNECTION_ACTION_TYPES.SIGN_IN, token: token, is_connected: is_connected, loading: true};
 };
-const logoutAction = () => {
-    return {type: CONNECTION_ACTION_TYPES.LOG_OUT}
-};
+// const logoutAction = () => {
+//     return {type: CONNECTION_ACTION_TYPES.LOG_OUT}
+// };
 const loadingActionStart = () => {
     return {type: CONNECTION_ACTION_TYPES.LOADING_START}
 };
@@ -27,11 +29,7 @@ export const login = function (username, password) {
         }).then(
             (response) => {
                 let token = response.data.tokenAuth.token;
-                dispatch(account_info());
-                let email = response.data.tokenAuth.email;
-                let username = response.data.tokenAuth.username;
-                let first_name = response.data.tokenAuth.first_name;
-                let last_name = response.data.tokenAuth.last_name;
+                dispatch(account_info(token));
                 dispatch(loginAction(token, true));
                 localStorage.setItem('token', token);
                 dispatch(loadingEndActionEnd());
