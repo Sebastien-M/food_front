@@ -2,34 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddecc9c9-651a-490f-8836-2dc86cf385fc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/dashboard/Home/Cook.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/dashboard/ShoppingList/AddIngredient.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/dashboard/ShoppingList/ShoppingList.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/dashboard/WeekMenuChoice/WeekMenuChoice.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/mutations/recipes.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/queries/shopping_list.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/reducers/utils.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/public/index.css" afterPath="$PROJECT_DIR$/public/index.css" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/actions/connectionActions.js" afterPath="$PROJECT_DIR$/src/actions/connectionActions.js" />
-      <change beforePath="$PROJECT_DIR$/src/actions/recipeActions.js" afterPath="$PROJECT_DIR$/src/actions/recipeActions.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/Dashboard.js" afterPath="$PROJECT_DIR$/src/components/dashboard/Dashboard.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/Home/Home.js" afterPath="$PROJECT_DIR$/src/components/dashboard/Home/Home.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/WeekMenu/WeekMenu.js" afterPath="$PROJECT_DIR$/src/components/dashboard/WeekMenu/WeekMenu.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/navbar/Header.js" afterPath="$PROJECT_DIR$/src/components/dashboard/navbar/Header.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/sidenav/SidenavHeader.js" afterPath="$PROJECT_DIR$/src/components/dashboard/sidenav/SidenavHeader.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/sidenav/SidenavMenu.js" afterPath="$PROJECT_DIR$/src/components/dashboard/sidenav/SidenavMenu.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing_page/Connection.js" afterPath="$PROJECT_DIR$/src/components/landing_page/Connection.js" />
-      <change beforePath="$PROJECT_DIR$/src/constants/ActionTypes.js" afterPath="$PROJECT_DIR$/src/constants/ActionTypes.js" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Dashboard.js" afterPath="$PROJECT_DIR$/src/containers/Dashboard.js" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
-      <change beforePath="$PROJECT_DIR$/src/queries/recipes.js" afterPath="$PROJECT_DIR$/src/queries/recipes.js" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/account.js" afterPath="$PROJECT_DIR$/src/reducers/account.js" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/connection.js" afterPath="$PROJECT_DIR$/src/reducers/connection.js" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/recipes.js" afterPath="$PROJECT_DIR$/src/reducers/recipes.js" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" afterPath="$PROJECT_DIR$/src/reducers/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,31 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="recipeActions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/recipeActions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="131" column="28" lean-forward="false" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
-              <folding>
-                <element signature="e#492#600#0" expanded="false" />
-                <element signature="e#505#598#0" expanded="false" />
-                <element signature="e#644#740#0" expanded="false" />
-                <element signature="e#657#738#0" expanded="false" />
-                <element signature="e#802#910#0" expanded="false" />
-                <element signature="e#815#908#0" expanded="false" />
-                <element signature="e#956#1045#0" expanded="false" />
-                <element signature="e#969#1043#0" expanded="false" />
-                <element signature="e#1646#1718#0" expanded="false" />
-                <element signature="e#1775#2121#0" expanded="false" />
-                <element signature="e#1802#2119#0" expanded="false" />
-                <element signature="e#1825#1925#0" expanded="false" />
-                <element signature="e#1959#2033#0" expanded="false" />
-                <element signature="e#2057#2112#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/dashboard/Home/Home.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,21 +29,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shopping_list.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/queries/shopping_list.js">
+      <file leaf-file-name="WeekMenu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/dashboard/WeekMenu/WeekMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="521">
+              <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeekMenu.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/dashboard/WeekMenu/WeekMenu.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+            <state relative-caret-position="255">
+              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,7 +134,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>RECIPE_ACTION_TYPES</find>
       <find>onclick=</find>
       <find>SET_DAILY_RECIPE</find>
       <find>selected_rec</find>
@@ -191,6 +163,7 @@
       <find>todays_recipe</find>
       <find>console.lo</find>
       <find>days</find>
+      <find>combinere</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -220,7 +193,6 @@
         <option value="$PROJECT_DIR$/src/components/dashboard/SidenavMenu.js" />
         <option value="$PROJECT_DIR$/src/components/dashboard/Header.js" />
         <option value="$PROJECT_DIR$/public/dashboard.css" />
-        <option value="$PROJECT_DIR$/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/components/App.js" />
         <option value="$PROJECT_DIR$/src/actions/accountActions.js" />
         <option value="$PROJECT_DIR$/src/reducers/connection.js" />
@@ -250,6 +222,7 @@
         <option value="$PROJECT_DIR$/src/reducers/recipes.js" />
         <option value="$PROJECT_DIR$/src/reducers/utils.js" />
         <option value="$PROJECT_DIR$/src/components/dashboard/WeekMenu/WeekMenu.js" />
+        <option value="$PROJECT_DIR$/src/reducers/index.js" />
       </list>
     </option>
   </component>
@@ -295,6 +268,11 @@
               <item name="food_front_end" type="b2602c69:ProjectViewProjectNode" />
               <item name="food_front_end" type="462c0819:PsiDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food_front_end" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food_front_end" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -392,7 +370,7 @@
       <workItem from="1540367710527" duration="76207000" />
       <workItem from="1543010968177" duration="5346000" />
       <workItem from="1543223500042" duration="56000" />
-      <workItem from="1543223622618" duration="43253000" />
+      <workItem from="1543223622618" duration="44032000" />
     </task>
     <task id="LOCAL-00001" summary="buttons fixed">
       <created>1538426331067</created>
@@ -422,11 +400,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540858924445</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="final push">
+      <created>1543383116302</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543383116302</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156126000" />
+    <option name="totallyTimeSpent" value="156905000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,16 +425,16 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17829457" sideWeight="0.5560224" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17829457" sideWeight="0.5545723" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18016928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18016928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17829457" sideWeight="0.4439776" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17829457" sideWeight="0.44542772" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24425635" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24425635" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -473,7 +458,8 @@
     <MESSAGE value="action and container added for connection component" />
     <MESSAGE value="tsk-01&#10;tsk-02&#10;tsk-03&#10;tsk-04&#10;tsk-05" />
     <MESSAGE value="todays recipe added (must modify) + week menu coponent" />
-    <option name="LAST_COMMIT_MESSAGE" value="todays recipe added (must modify) + week menu coponent" />
+    <MESSAGE value="final push" />
+    <option name="LAST_COMMIT_MESSAGE" value="final push" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -520,14 +506,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/SignIn.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/dashboard.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
@@ -583,14 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -862,18 +832,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/dashboard/WeekMenu/WeekMenu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
           <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
