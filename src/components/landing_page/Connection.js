@@ -23,12 +23,14 @@ class Connection extends Component {
                     </section>
                     <section className="center">
                         <section className="main_buttons">
-                            <button className="mdl-button mdl-button--raised mdl-js-ripple-effect mdl-js-button mdl-button--raised mdl-button--colored"
-                                    id="show-sign-up-dialog">
+                            <button
+                                className="mdl-button mdl-button--raised mdl-js-ripple-effect mdl-js-button mdl-button--raised mdl-button--colored signup"
+                                id="show-sign-up-dialog">
                                 Créer un compte
                             </button>
-                            <button className="mdl-button mdl-button--raised mdl-js-ripple-effect mdl-js-button mdl-button--raised mdl-button--colored"
-                                    id="show-sign-in-dialog">
+                            <button
+                                className="mdl-button mdl-button--raised mdl-js-ripple-effect mdl-js-button mdl-button--raised mdl-button--colored signin"
+                                id="show-sign-in-dialog">
                                 Se connecter
                             </button>
 
@@ -41,26 +43,21 @@ class Connection extends Component {
                 </main>
 
                 <section className="bottom_content">
+                    <br/>
+                    <br/>
                     <h2>Qu'est-ce que Food?</h2>
 
-                    <div className="mdl-grid main_container_info">
-                        <div className="mdl-cell mdl-cell--6-col container_info">
-                            <p>Food est une application  vous proposant des recettes pour chaque jour de la semaine.
+                    <div className="mdl-grid main_container_info" style={{paddingBottom:"100px"}}>
+                        <div className="mdl-layout-spacer"/>
+                        <div className="mdl-cell mdl-cell--6-col container_info text_center">
+                            <p>Food est une application vous proposant des recettes pour chaque jour de la semaine.
                                 En fonction des recettes proposées une liste de courses sera crée. Vous pouvez également
                                 modifier cette liste ou les recettes proposées en fonction de vos préférences
                             </p>
                         </div>
-
-                        <div className="mdl-cell mdl-cell--6-col container_info">
-                            <div className="demo-card-image mdl-card mdl-shadow--2dp">
-                                <div className="mdl-card__title mdl-card--expand"/>
-                                <div className="mdl-card__actions">
-                                    <span className="demo-card-image__filename">Image.jpg</span>
-                                </div>
-                            </div>
-                        </div>
-
+                        <div className="mdl-layout-spacer"/>
                     </div>
+
                 </section>
             </section>
         )
@@ -72,7 +69,7 @@ class Connection extends Component {
         let showSignUpDialogButton = document.querySelector('#show-sign-up-dialog');
         let showSignInDialogButton = document.querySelector('#show-sign-in-dialog');
 
-        showSignUpDialogButton.addEventListener('click',  () => {
+        showSignUpDialogButton.addEventListener('click', () => {
             signup_dialog.showModal();
         });
 

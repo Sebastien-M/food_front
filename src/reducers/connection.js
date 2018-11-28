@@ -3,7 +3,6 @@ import {CONNECTION_ACTION_TYPES} from "../constants/ActionTypes";
 const initialState = {
     token: null,
     username: null,
-    password: null,
     is_connected: localStorage.getItem('token') != null,
     loading: false,
 };

@@ -2,11 +2,11 @@ import {ACCOUNT_ACTION_TYPES} from "../constants/ActionTypes";
 import {get_new_apollo_client} from "../ApolloClient";
 
 const initialState = {
-    first_name: localStorage.getItem('first_name'),
-    last_name: localStorage.getItem('last_name'),
-    username: localStorage.getItem('username'),
-    email: localStorage.getItem('email'),
-    client: get_new_apollo_client(localStorage.getItem('token')),
+    first_name: localStorage.getItem('first_name') || null,
+    last_name: localStorage.getItem('last_name') || null,
+    username: localStorage.getItem('username') || null,
+    email: localStorage.getItem('email') || null,
+    client: get_new_apollo_client(localStorage.getItem('token') || null),
     current_tab: 'Home',
 };
 

@@ -13,6 +13,10 @@ const mapStateToProps = state => {
         client: state.account.client,
         current_tab: state.account.current_tab,
         todays_recipe: state.recipe.todays_recipe,
+        week_menu: state.recipe.week_menu,
+        recipe_suggestion: state.recipe.recipe_suggestion,
+        chosen_day: state.recipe.chosen_day,
+        shopping_list:state.recipe.shopping_list,
     }
 };
 
