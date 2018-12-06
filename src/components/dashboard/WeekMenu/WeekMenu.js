@@ -7,11 +7,9 @@ class WeekMenu extends Component {
     }
 
     componentDidMount() {
-        // this.displayWeekMenu(this.props.week_menu)
     }
 
     renderWeekMenu(week_menu) {
-        // if (week_menu[0]) {
             return Object.entries(week_menu).map(([key, value]) => {
                 return (
                     Object.entries(value).map(([key2, value2]) => {

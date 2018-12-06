@@ -6,7 +6,8 @@ function getMenuDate(plus_days) {
     let diff = d.getDate() - day + (day === 0 ? -6:1);
     let monday_date = new Date(d.setDate(diff));
     let new_date = (plus_days) ? new Date(monday_date.getTime() + 86400000 * plus_days): new Date(monday_date.getTime());
-    return `${new_date.getFullYear()}-${new_date.getMonth()+1}-${new_date.getDate()}`
+    let new_date_day = (new_date.getDate() < 10) ? `0${new_date.getDate()}` : new_date.getDate();
+    return `${new_date.getFullYear()}-${new_date.getMonth()+1}-${new_date_day}`
 }
 
 export const week_menu_example = [
